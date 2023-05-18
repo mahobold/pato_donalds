@@ -21,6 +21,7 @@
     border-color: brown;
     border-radius: 12px;
     border-width: 4px;
+    margin-right: 90px;
 }
 
 img{
@@ -31,6 +32,7 @@ img{
 .fv{
     height: 130px;
     background-color: brown;
+    margin-bottom: 40px;
 
 }
 
@@ -54,6 +56,8 @@ img{
     color: yellow;
     font-size: 20px;
     margin-bottom: 30px;
+    
+    
 }
 
 .nav-link:hover{
@@ -80,4 +84,41 @@ h2{
     text-align: center;
     font-family: fantasy;
     text-decoration: underline brown;
+}
+
+.bi-basket{
+    color: aliceblue;
+    margin-left: 690px;
+}
+
+svg{
+    width: 35px;
+    height: 35px;
+    fill: currentcolor;
+}
+
+.botao{
+    background-color: navy;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: fantasy;
+    border-radius: 15px;
+    border: 3px solid rgb(32, 19, 104) ;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: -75px;
+}
+
+
+.btn-success{
+    background-color: navy;
+    border: 3px solid rgb(0, 0, 88);
+}
+
+.btn-success:hover{
+    background-color: navy;
+    border: 3px solid rgb(0, 0, 88);
+    --bs-btn-active-bg: blue;
+    --bs-btn-active-border-color: navy;
 }
